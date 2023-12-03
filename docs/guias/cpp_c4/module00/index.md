@@ -18,3 +18,6 @@ import { categoria1 } from './categorias.ts';
 **Namespaces, class, funciones miembro, stdio streams, lista de inicialización, static, const, y montones de
 cosas basicas**
 
+::: danger En proceso...
+Este Modulo y su contenido puede verse sujeto a cambios.
+:::

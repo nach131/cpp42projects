@@ -15,8 +15,8 @@ import { categoria1 } from './categorias.ts';
 
 # Module 01
 
-## Ex00
+**Reserva de memoria, punteros a miembros, referencias, switch**
 
-## Ex01
-
-## Ex02
+::: danger En proceso...
+Este Modulo y su contenido puede verse sujeto a cambios.
+:::

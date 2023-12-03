@@ -15,8 +15,8 @@ import { categoria1 } from './categorias.ts';
 
 # Module 02
 
-## Ex00
+**Polimorfismo ad-hoc, sobrecargas y clases canónico-ortodoxas en C++**
 
-## Ex01
-
-## Ex02
+::: danger En proceso...
+Este Modulo y su contenido puede verse sujeto a cambios.
+:::

@@ -130,23 +130,23 @@ function siderbar() {
           text: "CPP C4",
           link: "/guias/cpp_c4/",
           collapsed: true,
-          items:[
+          items: [
             {
               text: "Module 00",
               link: "/guias/cpp_c4/module00/",
               collapsed: true,
-              items:[
+              items: [
                 {
                   text: "Exe00: Megaphone",
-                  link:"/guias/cpp_c4/module00/exe00",
+                  link: "/guias/cpp_c4/module00/exe00",
                 },
                 {
                   text: "Exe01: My Awesome PhoneBook",
-                  link:"/guias/cpp_c4/module00/exe01",
+                  link: "/guias/cpp_c4/module00/exe01",
                 },
                 {
                   text: "Exe02: The Job Of Your Dreams",
-                  link:"/guias/cpp_c4/module00/exe01",
+                  link: "/guias/cpp_c4/module00/exe01",
                 }
               ]
             },
@@ -154,30 +154,28 @@ function siderbar() {
               text: "Module 01",
               link: "/guias/cpp_c4/module01/",
               collapsed: true,
-              items:[
+              items: [
                 {
                   text: "Exe:",
-                  link:"/guias/cpp_c4/module01/exe00",
+                  link: "/guias/cpp_c4/module01/exe00",
                 },
                 {
                   text: "Exe:",
-                  link:"/guias/cpp_c4/module00/exe01",
+                  link: "/guias/cpp_c4/module00/exe01",
                 },
                 {
                   text: "Exe:",
-                  link:"/guias/cpp_c4/module00/exe01",
+                  link: "/guias/cpp_c4/module00/exe01",
                 }
               ]
             },
-            { 
+            {
               text: "Module 02",
               link: "/guias/cpp_c4/module02/",
               collapsed: true,
             },
           ]
         },
-       
-  
         {
           text: "Errores",
           link: "/guias/errores/",

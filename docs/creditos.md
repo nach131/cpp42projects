@@ -18,7 +18,7 @@ const members = [
     title: 'Fundador del proyecto',
     links: [
        { icon: 'github', link: 'https://github.com/nach131' },
-      { icon: '42school', link: 'https://profile.intra.42.fr/users/nmota-bu' }
+      // { icon: 'x', link: 'https://profile.intra.42.fr/users/nmota-bu' }
       // { icon: 'youtube', link: 'https://www.youtube.com/enunpimpam.com' }
     ]
   },
