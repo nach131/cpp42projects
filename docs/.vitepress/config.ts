@@ -126,78 +126,58 @@ function siderbar() {
     {
       text: "Categorías",
       items: [
-        // {
-        //   text: "Instalación",
-        //   collapsed: true,
-        //   link: "/guias/instalacion/",
-        //   items: [
-        //     {
-        //       text: "Memorias y particiones",
-        //       items: [
-        //         {
-        //           text: "Metodo Rufus",
-        //           link: "/guias/instalacion/memorias-y-particiones/metodo-rufus",
-        //         },
-        //         {
-        //           text: "Metodo Ventoy",
-        //           link: "/guias/instalacion/memorias-y-particiones/metodo-ventoy",
-        //         },
-        //       ],
-        //     },
-        //     {
-        //       text: "Drivers",
-        //       items: [
-        //         {
-        //           text: "Controladores de terceros",
-        //           link: "/guias/instalacion/drivers/terceros",
-        //         },
-        //       ],
-        //     },
-        //   ],
-        // },
-        // {
-        //   text: "Información",
-        //   link: "/guias/informacion/",
-        //   collapsed: true,
-        //   items: [
-        //     {
-        //       text: "Conocer si soy BIOS o UEFI",
-        //       link: "/guias/informacion/bios-uefi",
-        //     },
-        //     {
-        //       text: "Requisitos de Windows",
-        //       link: "/guias/informacion/requisitos-windows",
-        //     },
-        //     {
-        //       text: "Office",
-        //       link: "/guias/informacion/office",
-        //     },
-        //   ],
-        // },
         {
-          text: "Module 00",
-          link: "/guias/module00/",
+          text: "CPP C4",
+          link: "/guias/cpp_c4/",
           collapsed: true,
           items:[
             {
-              text: "Exe00: Megaphone",
-              link:"/guias/module00/exe00",
+              text: "Module 00",
+              link: "/guias/cpp_c4/module00/",
+              collapsed: true,
+              items:[
+                {
+                  text: "Exe00: Megaphone",
+                  link:"/guias/cpp_c4/module00/exe00",
+                },
+                {
+                  text: "Exe01: My Awesome PhoneBook",
+                  link:"/guias/cpp_c4/module00/exe01",
+                },
+                {
+                  text: "Exe02: The Job Of Your Dreams",
+                  link:"/guias/cpp_c4/module00/exe01",
+                }
+              ]
             },
             {
-              text: "Exe01: My Awesome PhoneBook",
-              link:"/guias/module00/exe01",
+              text: "Module 01",
+              link: "/guias/cpp_c4/module01/",
+              collapsed: true,
+              items:[
+                {
+                  text: "Exe:",
+                  link:"/guias/cpp_c4/module01/exe00",
+                },
+                {
+                  text: "Exe:",
+                  link:"/guias/cpp_c4/module00/exe01",
+                },
+                {
+                  text: "Exe:",
+                  link:"/guias/cpp_c4/module00/exe01",
+                }
+              ]
             },
-            {
-              text: "Exe02: The Job Of Your Dreams",
-              link:"/guias/module00/exe01",
-            }
+            { 
+              text: "Module 02",
+              link: "/guias/cpp_c4/module02/",
+              collapsed: true,
+            },
           ]
         },
-        { 
-          text: "Module 01",
-          link: "/guias/module01/",
-          collapsed: true,
-        },
+       
+  
         {
           text: "Errores",
           link: "/guias/errores/",

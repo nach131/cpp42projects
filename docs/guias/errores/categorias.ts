@@ -9,4 +9,4 @@ export const categoria0 = [
     description: 'Descripción',
     link: '/path/',
   }
-];
+]

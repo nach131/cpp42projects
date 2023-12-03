@@ -15,8 +15,6 @@ import { categoria1 } from './categorias.ts';
 
 # Module 00
 
-## Ex00
+**Namespaces, class, funciones miembro, stdio streams, lista de inicialización, static, const, y montones de
+cosas basicas**
 
-## Ex01
-
-## Ex02
