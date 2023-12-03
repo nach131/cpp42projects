@@ -12,7 +12,7 @@ const props = defineProps<{
 
 <template>
   <a class="link" :href="link">
-    <img v-if="icon" alt="" :src="icon" class="icon" />
+        <img v-if="icon" alt="" :src="icon" class="icon" />
     <span class="text">
       <span class="title">{{ title }}</span>
       <span class="description">{{ description }}</span>

@@ -23,7 +23,7 @@ export default {
     },
     outline: [2, 5],
     editLink: {
-      pattern: "https://github.com/doofysp/GuiasDP/edit/main/docs/:path",
+      pattern: "https://github.com/nach131/cpp42projects/edit/main/docs/:path",
       text: "Editar esta página en GitHub",
     },
     search: {
@@ -72,11 +72,11 @@ function metadata() {
       {
         property: "og:image",
         content:
-          "https://raw.githubusercontent.com/doofysP/GuiasDP/main/docs/public/DP.png",
+          "https://raw.githubusercontent.com/nach131/cpp42projects/main/docs/public/logo.png",
       },
     ],
     ["meta", { name: "twitter:card", content: "summary" }],
-    ["link", { rel: "icon", href: "/DP.svg" }],
+    ["link", { rel: "icon", href: "/C++_Logo.svg" }],
   ];
 }
 
@@ -137,64 +137,83 @@ function siderbar() {
     {
       text: "Categorías",
       items: [
+        // {
+        //   text: "Instalación",
+        //   collapsed: true,
+        //   link: "/guias/instalacion/",
+        //   items: [
+        //     {
+        //       text: "Memorias y particiones",
+        //       items: [
+        //         {
+        //           text: "Metodo Rufus",
+        //           link: "/guias/instalacion/memorias-y-particiones/metodo-rufus",
+        //         },
+        //         {
+        //           text: "Metodo Ventoy",
+        //           link: "/guias/instalacion/memorias-y-particiones/metodo-ventoy",
+        //         },
+        //       ],
+        //     },
+        //     {
+        //       text: "Drivers",
+        //       items: [
+        //         {
+        //           text: "Controladores de terceros",
+        //           link: "/guias/instalacion/drivers/terceros",
+        //         },
+        //       ],
+        //     },
+        //   ],
+        // },
+        // {
+        //   text: "Información",
+        //   link: "/guias/informacion/",
+        //   collapsed: true,
+        //   items: [
+        //     {
+        //       text: "Conocer si soy BIOS o UEFI",
+        //       link: "/guias/informacion/bios-uefi",
+        //     },
+        //     {
+        //       text: "Requisitos de Windows",
+        //       link: "/guias/informacion/requisitos-windows",
+        //     },
+        //     {
+        //       text: "Office",
+        //       link: "/guias/informacion/office",
+        //     },
+        //   ],
+        // },
         {
-          text: "Instalación",
+          text: "Module 00",
+          link: "/guias/module00/",
           collapsed: true,
-          link: "/guias/instalacion/",
-          items: [
+          items:[
             {
-              text: "Memorias y particiones",
-              items: [
-                {
-                  text: "Metodo Rufus",
-                  link: "/guias/instalacion/memorias-y-particiones/metodo-rufus",
-                },
-                {
-                  text: "Metodo Ventoy",
-                  link: "/guias/instalacion/memorias-y-particiones/metodo-ventoy",
-                },
-              ],
+              text: "Exe00: Megaphone",
+              link:"/guias/module00/exe00",
             },
             {
-              text: "Drivers",
-              items: [
-                {
-                  text: "Controladores de terceros",
-                  link: "/guias/instalacion/drivers/terceros",
-                },
-              ],
+              text: "Exe01: My Awesome PhoneBook",
+              link:"/guias/module00/exe01",
             },
-          ],
+            {
+              text: "Exe02: The Job Of Your Dreams",
+              link:"/guias/module00/exe01",
+            }
+          ]
         },
-        {
-          text: "Información",
-          link: "/guias/informacion/",
-          collapsed: true,
-          items: [
-            {
-              text: "Conocer si soy BIOS o UEFI",
-              link: "/guias/informacion/bios-uefi",
-            },
-            {
-              text: "Requisitos de Windows",
-              link: "/guias/informacion/requisitos-windows",
-            },
-            {
-              text: "Office",
-              link: "/guias/informacion/office",
-            },
-          ],
-        },
-        {
-          text: "Optimización",
-          link: "/guias/optimizacion/",
+        { 
+          text: "Module 01",
+          link: "/guias/module01/",
           collapsed: true,
         },
         {
           text: "Errores",
           link: "/guias/errores/",
           collapsed: true,
-        },
+        }
       ],
     },
     {

@@ -13,11 +13,10 @@ import { categoria0 } from './categorias.ts';
 import { categoria1 } from './categorias.ts';
 </script>
 
-# Guías: Instalación
+# Module 00
 
-### Memorias y particiones
+## Ex00
 
-<Woaos :links="categoria0" />
+## Ex01
 
-### Drivers
-<Woaos :links="categoria1" />
+## Ex02

@@ -14,5 +14,11 @@ import { categoria0 } from './categorias.ts';
 
 # Guías: Errores
 
-Sin guías activas.
+::: warning Precaución
+Sin errores por ahora.
+:::
+
+::: tip A tener en cuenta
+Esto es atener en cuenta
+:::
 <!--- <Woaos :links="categoria0" /> -->

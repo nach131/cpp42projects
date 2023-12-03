@@ -6,7 +6,7 @@ head:
       content: Créditos del proyecto
   - - meta
     - name: og:title
-      content: Creditos - Doofy's Projects
+      content: Creditos - C++ 42 Projects
 ---
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
@@ -18,17 +18,18 @@ const members = [
     title: 'Fundador del proyecto',
     links: [
        { icon: 'github', link: 'https://github.com/nach131' },
-      { icon: 'youtube', link: 'https://www.youtube.com/enunpimpam.com' }
+      { icon: '42school', link: 'https://profile.intra.42.fr/users/nmota-bu' }
+      // { icon: 'youtube', link: 'https://www.youtube.com/enunpimpam.com' }
     ]
   },
-  {
-    avatar: 'https://avatars.githubusercontent.com/u/33827060?v=4',
-    name: 'Valerio Duchi',
-    title: 'Desarrollador',
-    links: [
-      { icon: 'github', link: 'https://github.com/edward6374' },
-    ]
-  }
+  // {
+  //   avatar: 'https://avatars.githubusercontent.com/u/33827060?v=4',
+  //   name: 'Valerio Duchi',
+  //   title: 'Desarrollador',
+  //   links: [
+  //     { icon: 'github', link: 'https://github.com/edward6374' },
+  //   ]
+  // }
 ]
 </script>
 
