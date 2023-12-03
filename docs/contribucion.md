@@ -9,7 +9,7 @@ head:
       content: Contribución - C++ 42 Projects
 ---
 
-# ¿Cómo colaborar al proyecto?
+# ¿Cómo colaborar en el proyecto?
 
 Al igual que 42 School, el soporte es totalmente abierto al público para que cualquiera pueda ayudar y ser ayudado.
 
@@ -32,7 +32,6 @@ El proyecto está alojado y funcional dentro de **GitHub**, como proveedor direc
 
 Se proyecta el uso de reportes de problemas **Issues** y la solicitud de cambios **Pull Requests** para concretar ideas y soluciones del proyecto. A diferencia de la *Comunicación Directa*, el uso de GitHub va enfocado al reporte y solución de errores y solicitudes de cambio a partir de ramas dependientes del código principal.
 
-<!-- + Los reportes de problemas **Issues** se hacen en su respectiva pestaña del repositorio, es decir, en https://github.com/doofysP/GuiasDP/issues creando un nuevo reporte usando la plantilla **Bugs**. Esta plantilla da las opciones de: Título, tipo de error, información de usuario y descripción. Una vez enviada se llevará a cabo el desarrollo en el menor tiempo posible. -->
 + Las solicitudes de cambios **Pull Requests** se dirigen específicamente al cambio del directorio `docs/`, contenedor de toda la información y configuración de la página. Has de tener nociones del uso de GitHub y de sus Pull Requests. En todo caso, si necesita ayuda con este proceso puede preguntar y con gusto será resuelta la duda.
 
 + Cualquier duda o aclaración ponte en contato con nosotros.

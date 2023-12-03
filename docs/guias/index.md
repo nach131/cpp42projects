@@ -14,7 +14,8 @@ head:
 </div>
 
 ## ¿Qué es esto?
-Un conjunto de guías reunidas dentro de una documentación. Este proyecto nace dentro del entorno del servidor [Discord](https://discord.gg/doofy-s-projects-704042607600205956) y la necesidad de mejorar el sistema de ayuda, el cual se manejaba hasta entonces, por ello y por el mejoramiento del mismo, se hizo una gran parte de cambios, tanto internos en sus pautas, en los sistemas dentro del servidor y fuera de este llegando a la creación de esta documentación que aloja todo lo relacionado con guías informativas y para la solución de problemas.
+Esto nacio como una recopilación de mis proyectos en 42 Barcelona, de los apuntes y documentación que necesite para realizarlos.
+Ahora gracias a [vitepress](https://vitepress.dev/) y [GitHub Actions](https://docs.github.com/en/actions) he podido crear esta web alojada y distribuida por GitHub, con todas las caracteristicas de los repositorios y su colaboración.
 
 ## ¿Qué encontraré aquí?
 De manera organizada, todas las guías útiles que podamos recopilar en esta documentación separada por categorías como lo son:
