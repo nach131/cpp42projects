@@ -22,14 +22,14 @@ const members = [
       // { icon: 'youtube', link: 'https://www.youtube.com/enunpimpam.com' }
     ]
   },
-  // {
-  //   avatar: 'https://avatars.githubusercontent.com/u/33827060?v=4',
-  //   name: 'Valerio Duchi',
-  //   title: 'Desarrollador',
-  //   links: [
-  //     { icon: 'github', link: 'https://github.com/edward6374' },
-  //   ]
-  // }
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/33827060?v=4',
+    name: 'Valerio Duchi',
+    title: 'Desarrollador',
+    links: [
+      { icon: 'github', link: 'https://github.com/edward6374' },
+    ]
+  }
 ]
 </script>
 
