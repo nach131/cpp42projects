@@ -30,3 +30,12 @@ export const module00 = [
     // link: "/cpp42projects/guias/cpp_c4/module02/",
   }
 ]
+
+export default {
+  data () {
+    return {
+      msg: 'Highlighted!'
+    }
+  }
+}
+

@@ -7,6 +7,7 @@ head:
     - name: og:title
       content: Guías | Instalación
 ---
+
 <script setup lang="ts">
 import Woaos from '@theme/components/categoria.vue';
 import { categoria0 } from './categorias.ts';
@@ -20,3 +21,5 @@ import { categoria1 } from './categorias.ts';
 ::: danger En proceso...
 Este Modulo y su contenido puede verse sujeto a cambios.
 :::
+
+
