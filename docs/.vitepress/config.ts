@@ -145,44 +145,44 @@ function siderbar() {
                   text: "Namespaces",
                   link: "/guias/cpp_c4/module00/namespaces",
                 },
-                {
-                  text: "Exe00: Megaphone",
-                  link: "/guias/cpp_c4/module00/exe00",
-                },
-                {
-                  text: "Exe01: My Awesome PhoneBook",
-                  link: "/guias/cpp_c4/module00/exe01",
-                },
-                {
-                  text: "Exe02: The Job Of Your Dreams",
-                  link: "/guias/cpp_c4/module00/exe01",
-                }
+                // {
+                //   text: "Exe00: Megaphone",
+                //   link: "/guias/cpp_c4/module00/exe00",
+                // },
+                // {
+                //   text: "Exe01: My Awesome PhoneBook",
+                //   link: "/guias/cpp_c4/module00/exe01",
+                // },
+                // {
+                //   text: "Exe02: The Job Of Your Dreams",
+                //   link: "/guias/cpp_c4/module00/exe01",
+                // }
               ]
             },
-            {
-              text: "Module 01",
-              link: "/guias/cpp_c4/module01/",
-              collapsed: true,
-              items: [
-                {
-                  text: "Exe:",
-                  link: "/guias/cpp_c4/module01/exe00",
-                },
-                {
-                  text: "Exe:",
-                  link: "/guias/cpp_c4/module00/exe01",
-                },
-                {
-                  text: "Exe:",
-                  link: "/guias/cpp_c4/module00/exe01",
-                }
-              ]
-            },
-            {
-              text: "Module 02",
-              link: "/guias/cpp_c4/module02/",
-              collapsed: true,
-            },
+            // {
+            //   text: "Module 01",
+            //   link: "/guias/cpp_c4/module01/",
+            //   collapsed: true,
+            //   items: [
+            //     {
+            //       text: "Exe:",
+            //       link: "/guias/cpp_c4/module01/exe00",
+            //     },
+            //     {
+            //       text: "Exe:",
+            //       link: "/guias/cpp_c4/module00/exe01",
+            //     },
+            //     {
+            //       text: "Exe:",
+            //       link: "/guias/cpp_c4/module00/exe01",
+            //     }
+            //   ]
+            // },
+            // {
+            //   text: "Module 02",
+            //   link: "/guias/cpp_c4/module02/",
+            //   collapsed: true,
+            // },
           ]
         },
         {
@@ -190,11 +190,11 @@ function siderbar() {
           link: "/guias/errores/",
           collapsed: true,
         },
-        {
-          text: "Ejemplos",
-          link: "/guias/ejemplo/",
-          collapsed: true,
-        }
+        // {
+        //   text: "Ejemplos",
+        //   link: "/guias/ejemplo/",
+        //   collapsed: true,
+        // }
       ],
     },
     {
