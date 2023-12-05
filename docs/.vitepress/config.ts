@@ -127,6 +127,11 @@ function siderbar() {
       text: "Categorías",
       items: [
         {
+          text: "Basico",
+          link: "/guias/basico/",
+          collapsed: true,
+        },
+        {
           text: "CPP C4",
           link: "/guias/cpp_c4/",
           collapsed: true,
@@ -136,6 +141,10 @@ function siderbar() {
               link: "/guias/cpp_c4/module00/",
               collapsed: true,
               items: [
+                {
+                  text: "Namespaces",
+                  link: "/guias/cpp_c4/module00/namespaces",
+                },
                 {
                   text: "Exe00: Megaphone",
                   link: "/guias/cpp_c4/module00/exe00",
@@ -179,6 +188,11 @@ function siderbar() {
         {
           text: "Errores",
           link: "/guias/errores/",
+          collapsed: true,
+        },
+        {
+          text: "Ejemplos",
+          link: "/guias/ejemplo/",
           collapsed: true,
         }
       ],

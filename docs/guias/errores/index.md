@@ -9,7 +9,7 @@ head:
 ---
 <script setup lang="ts">
 import Woaos from '@theme/components/categoria.vue';
-import { categoria0 } from './categorias.ts';
+import { error } from './error.ts';
 </script>
 
 # Guías: Errores
@@ -18,7 +18,5 @@ import { categoria0 } from './categorias.ts';
 Sin errores por ahora.
 :::
 
-::: tip A tener en cuenta
-Esto es atener en cuenta
-:::
+
 <!--- <Woaos :links="categoria0" /> -->

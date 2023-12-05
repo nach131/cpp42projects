@@ -5,7 +5,7 @@ head:
       content: Toda información útil para la práctica o conocimiento con respecto la instalación de sistemas u otros.
   - - meta
     - name: og:title
-      content: Guías | Instalación
+      content: Module 00
 ---
 <script setup lang="ts">
 import Woaos from '@theme/components/categoria.vue';
@@ -21,55 +21,3 @@ cosas basicas**
 ::: danger En proceso...
 Este Modulo y su contenido puede verse sujeto a cambios.
 :::
-
-:tada: :100:
-
-::: danger STOP
-Danger zone, do not proceed
-:::
-
-::: details Click me to view the code
-```js
-console.log('Hello, VitePress!')
-```
-:::
-
-```ts {1}
-// line-numbers is disabled by default
-const line2 = 'This is line 2'
-const line3 = 'This is line 3'
-```
-
-```ts:line-numbers {1}
-// line-numbers is enabled
-const line2 = 'This is line 2'
-const line3 = 'This is line 3'
-```
-
-```ts:line-numbers=2 {1}
-// line-numbers is enabled and start from 2
-const line3 = 'This is line 3'
-const line4 = 'This is line 4'
-```
-
-```js
-export default {
-  data () {
-    return {
-      msg: 'Focused!' // [!code focus]
-      msg: 'Focused!' // [!code focus]
-      'esto no'
-    }
-  }
-}
-```
-
-```js
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!' // [!code highlight]
-    }
-  }
-}
-```
