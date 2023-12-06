@@ -1,4 +1,4 @@
-export const module00 = [
+export const cpp_c4 = [
   {
     icon: "/cpp42projects/icons/number/0.svg",
     title: "Module",

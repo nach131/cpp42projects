@@ -145,6 +145,24 @@ function siderbar() {
                   text: "Namespaces",
                   link: "/guias/cpp_c4/module00/namespaces",
                 },
+                {
+                  text: "Class",
+                  link: "/guias/cpp_c4/module00/class",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Funciones miembro",
+                      link: "/guias/cpp_c4/module00/funciones",
+
+                    },
+                    {
+                      text: " Modificadores de acceso ",
+                      link: "/guias/cpp_c4/module00/modificadores",
+
+                    },
+                  ]
+                },
+
                 // {
                 //   text: "Exe00: Megaphone",
                 //   link: "/guias/cpp_c4/module00/exe00",

@@ -5,13 +5,12 @@ head:
       content: Namespaces
   - - meta
     - name: og:title
-      content: Basico C++
+      content: Module 00 C++
 ---
 <script setup lang="ts">
 import Woaos from '@theme/components/categoria.vue';
 
 </script>
-
 
 ## Using namespace
 
