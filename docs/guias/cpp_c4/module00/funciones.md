@@ -25,18 +25,18 @@ class Person {
 		std::string name;
 		int age;
 
-		void NewName(std::string newName)
-		{
-			name = newName;
-		}
-		void NewAge(int newAge)
-		{
-			age = newAge;
-		}
-		void ShowInfo()
-		{
-			std::cout << "Nombre: " << name << "\nEdad: " << age << std::endl;
-		}
+		void NewName(std::string newName) // [!code highlight]
+		{// [!code highlight]
+			name = newName;// [!code highlight]
+		}// [!code highlight]
+		void NewAge(int newAge)// [!code highlight]
+		{// [!code highlight]
+			age = newAge;// [!code highlight]
+		}// [!code highlight]
+		void ShowInfo()// [!code highlight]
+		{// [!code highlight]
+			std::cout << "Nombre: " << name << "\nEdad: " << age << std::endl;// [!code highlight]
+		}// [!code highlight]
 };
 
 int main(void)
@@ -46,14 +46,14 @@ int main(void)
 	persona1.NewName("Pedro");
 	persona1.NewAge(42);
 
-	std::cout << "Informacion de la perosna 1" << std::endl;
+	std::cout << "Informacion de la persona 1" << std::endl;
 	persona1.ShowInfo();
 
 	return 0;
 }
  ```
 ```
-Informacion de la perosna 1
+Informacion de la persona 1
 Nombre: Pedro
 Edad: 42
 ```
