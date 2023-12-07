@@ -165,6 +165,11 @@ function siderbar() {
                       link: "/guias/cpp_c4/module00/class/constructor",
 
                     },
+                    {
+                      text: "Destructor",
+                      link: "/guias/cpp_c4/module00/class/destructor",
+
+                    },
                   ]
                 },
                 {

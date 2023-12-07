@@ -1,3 +1,19 @@
+---
+head:
+  - - meta
+    - name: og:description
+      content: Class
+  - - meta
+    - name: og:title
+      content: Destructor
+---
+<script setup lang="ts">
+import Woaos from '@theme/components/categoria.vue';
+
+</script>
+
+# Destructors
+
 Un destructor es una función especial que se llama automáticamente cuando un objeto sale del ámbito o se elimina explícitamente. Su tarea principal es liberar recursos asignados dinámicamente o realizar otras operaciones de limpieza.
 
 ```cpp
