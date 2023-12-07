@@ -97,6 +97,13 @@ int main() {
 
 ```
 
+1. Se declara una variable `numero` para almacenar el valor que se ingresará.
+2. Se utiliza `std::cout` para imprimir un mensaje solicitando al usuario que ingrese un número.
+3. Luego, `std::cin` se utiliza para leer un número desde la entrada estándar y almacenarlo en la variable `numero`.
+4. Finalmente, se utiliza `std::cout` para mostrar el número ingresado.
+
+Es importante señalar que `std::cin` puede tener problemas si el usuario ingresa un tipo de dato incorrecto o introduce caracteres inesperados. Por lo tanto, es crucial validar y manejar los errores apropiadamente en aplicaciones más robustas o mejor usar `getline()`.
+
 
 ::: info 
 http://www.cplusplus.com/reference/string/string/
