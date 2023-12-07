@@ -55,7 +55,10 @@ int main() {
     return 0;
 }
 ```
-```
+
+<Badge type="info" text="output" />
+
+```shell
 Información del Coche 1:
 Marca: Toyota
 Modelo: Corolla

@@ -78,7 +78,8 @@ int main()
 	return 0;
 }
 ```
-```
+<Badge type="info" text="output" />
+```shell
 Nombre publico Pedro
 Nombre publico Pedro
 Nombre protegido Pablo

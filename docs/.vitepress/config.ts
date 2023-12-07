@@ -147,22 +147,25 @@ function siderbar() {
                 },
                 {
                   text: "Class",
-                  link: "/guias/cpp_c4/module00/class",
+                  link: "/guias/cpp_c4/module00/class/",
                   collapsed: true,
                   items: [
                     {
                       text: "Funciones miembro",
-                      link: "/guias/cpp_c4/module00/funciones",
+                      link: "/guias/cpp_c4/module00/class/funciones",
 
                     },
                     {
-                      text: " Modificadores de acceso ",
-                      link: "/guias/cpp_c4/module00/modificadores",
+                      text: "Modificadores de acceso",
+                      link: "/guias/cpp_c4/module00/class/modificadores",
 
                     },
                   ]
                 },
-
+                {
+                  text: "Exe01",
+                  link: "/guias/cpp_c4/module00/exe01/",
+                },
                 // {
                 //   text: "Exe00: Megaphone",
                 //   link: "/guias/cpp_c4/module00/exe00",

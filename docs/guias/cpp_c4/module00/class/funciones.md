@@ -52,7 +52,10 @@ int main(void)
 	return 0;
 }
  ```
-```
+
+<Badge type="info" text="output" />
+
+```shell
 Informacion de la persona 1
 Nombre: Pedro
 Edad: 42
