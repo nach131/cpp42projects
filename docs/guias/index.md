@@ -36,3 +36,6 @@ De manera organizada, todas las guías útiles que podamos recopilar en esta doc
 ::: info Nota
 Estas categorías y su contenido puede verse sujeto a cambios.
 :::
+
+
+<!-- https://es.wikipedia.org/wiki/C%2B%2B -->
