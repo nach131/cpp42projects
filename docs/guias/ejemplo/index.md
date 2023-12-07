@@ -44,6 +44,7 @@ console.log('Hello, VitePress!')
 
 
 
+
 ```ts {1}
 // line-numbers is disabled by default
 const line2 = 'This is line 2'
@@ -62,7 +63,7 @@ const line3 = 'This is line 3'
 const line4 = 'This is line 4'
 ```
 
-```js
+```cpp
 export default {
   data () {
     return {

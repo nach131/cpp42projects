@@ -160,6 +160,11 @@ function siderbar() {
                       link: "/guias/cpp_c4/module00/class/modificadores",
 
                     },
+                    {
+                      text: "Constructor",
+                      link: "/guias/cpp_c4/module00/class/constructor",
+
+                    },
                   ]
                 },
                 {

@@ -1,3 +1,19 @@
+---
+head:
+  - - meta
+    - name: og:description
+      content: Class
+  - - meta
+    - name: og:title
+      content: Constructor
+---
+<script setup lang="ts">
+import Woaos from '@theme/components/categoria.vue';
+
+</script>
+
+# Constructors
+
 Un constructor es una función especial que se llama automáticamente cuando se crea un objeto de una clase. Su tarea principal es inicializar los miembros del objeto. Puedes tener varios constructores en una clase, lo que se conoce como sobrecarga de constructor.
 
 ```cpp
