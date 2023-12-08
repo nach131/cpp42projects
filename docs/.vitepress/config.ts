@@ -77,6 +77,18 @@ function metadata() {
     ],
     ["meta", { name: "twitter:card", content: "summary" }],
     ["link", { rel: "icon", href: "/C++_Logo.svg" }],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-GFZ7EFNBGK' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-GFZ7EFNBGK');`
+    ]
   ];
 }
 
