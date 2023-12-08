@@ -124,7 +124,7 @@ function siderbar() {
       items: [{ text: "Introducción", link: "/guias/" }],
     },
     {
-      text: "Categorías",
+      // text: "Categorías",
       items: [
         {
           text: "Básico",
@@ -138,6 +138,10 @@ function siderbar() {
             {
               text: "Variables",
               link: "/guias/basico/variables"
+            },
+            {
+              text: "Referencias",
+              link: "/guias/basico/referencias"
             },
             {
               text: "Operadores de ámbito",
@@ -238,16 +242,16 @@ function siderbar() {
             // },
           ]
         },
-        // {
-        //   text: "Errores",
-        //   link: "/guias/errores/",
-        //   collapsed: true,
-        // },
         {
-          text: "Ejemplos",
-          link: "/guias/ejemplo/",
+          text: "Errores",
+          link: "/guias/errores/",
           collapsed: true,
-        }
+        },
+        // {
+        //   text: "Ejemplos",
+        //   link: "/guias/ejemplo/",
+        //   collapsed: true,
+        // }
       ],
     },
     {
