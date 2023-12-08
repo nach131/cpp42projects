@@ -127,9 +127,31 @@ function siderbar() {
       text: "Categorías",
       items: [
         {
-          text: "Basico",
+          text: "Básico",
           link: "/guias/basico/",
           collapsed: true,
+          items: [
+            {
+              text: "Conceptos",
+              link: "/guias/basico/conceptos"
+            },
+            {
+              text: "Variables",
+              link: "/guias/basico/variables"
+            },
+            {
+              text: "Operadores de ámbito",
+              link: "/guias/basico/ambito"
+            },
+            {
+              text: "Overloading",
+              link: "/guias/basico/overloading"
+            },
+            {
+              text: "Array class",
+              link: "/guias/basico/array_class"
+            },
+          ]
         },
         {
           text: "CPP C4",
@@ -216,16 +238,16 @@ function siderbar() {
             // },
           ]
         },
-        {
-          text: "Errores",
-          link: "/guias/errores/",
-          collapsed: true,
-        },
         // {
-        //   text: "Ejemplos",
-        //   link: "/guias/ejemplo/",
+        //   text: "Errores",
+        //   link: "/guias/errores/",
         //   collapsed: true,
-        // }
+        // },
+        {
+          text: "Ejemplos",
+          link: "/guias/ejemplo/",
+          collapsed: true,
+        }
       ],
     },
     {
