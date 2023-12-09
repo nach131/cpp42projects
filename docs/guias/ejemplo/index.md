@@ -16,15 +16,15 @@ import { categoria1 } from './categorias.ts';
 # Ejemplos
 
 ::: info
-esto es info
+esto es `info`
 :::
 
 ::: danger
-Este Modulo y su contenido puede verse sujeto a cambios.
+Este Modulo y su `contenido` puede verse sujeto a cambios.
 :::
 
 ::: tip
-Esto es atener en cuenta
+Esto es `atener` en cuenta
 :::
 
 ::: warning Avoid `<style scoped>` in Markdown
@@ -86,8 +86,8 @@ export default {
 ```
 # Badge
 
-### Title <Badge type="info" text="default" />
-### Title <Badge type="tip" text="^1.9.0" />
-### Title <Badge type="warning" text="beta" />
-### Title <Badge type="danger" text="caution" />
+### Title <Badge type="info" text="info" />
+### Title <Badge type="tip" text="tip" />
+### Title <Badge type="warning" text="warning" />
+### Title <Badge type="danger" text="danger" />
 

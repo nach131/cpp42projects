@@ -1,5 +1,9 @@
 # Array class
 
+::: danger Atención:
+ La biblioteca `array` pertenece a `C++11` y no se puede utilizar en 42.
+:::
+
 `std::array` es una clase de la biblioteca estándar de C++ que proporciona un contenedor de tamaño fijo, donde el tamaño del array es parte de su tipo. Es decir, el tamaño del array es parte del tipo de dato y se especifica como un parámetro de plantilla. Esto contrasta con los arrays tradicionales de C, que no llevan información sobre su tamaño y pueden degradarse fácilmente a punteros.
 
 ```cpp
@@ -33,6 +37,10 @@ int main(void)
 + `Métodos de la Clase:` Tiene métodos como `size()` para obtener el tamaño del array y otros métodos comunes asociados con contenedores.
 
 + `Fácil de Pasar y Retornar:` Puedes pasar y retornar std::array de funciones de manera fácil, ya que tiene semántica de valor.
+
+ ::: info 
+ compilar con el flag `-std=c++11`
+ :::
 
 ## array de string
 
@@ -81,10 +89,6 @@ int main()
 		std::cout << name << std::endl;
 }
 ```
- ::: info 
- compilar con el flag `-std=c++11`
- :::
-
 
 ::: tip [Array Class](https://cplusplus.com/reference/array/array/)
 :::

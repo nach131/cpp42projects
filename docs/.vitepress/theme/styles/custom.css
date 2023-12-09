@@ -299,7 +299,8 @@
 :root {
   --vp-code-line-height: 1.7;
   --vp-code-font-size: 0.875em;
-  --vp-code-color: var(--vp-c-brand-1);
+  /* --vp-code-color: var(--vp-c-brand-1); */ /* original*/
+  --vp-code-color: #6787b6; /* nach */
   --vp-code-link-color: var(--vp-c-brand-1);
   --vp-code-link-hover-color: var(--vp-c-brand-2);
   --vp-code-bg: var(--vp-c-default-soft);
