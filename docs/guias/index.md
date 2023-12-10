@@ -19,22 +19,23 @@ Ahora gracias a [vitepress](https://vitepress.dev/) y [GitHub Actions](https://d
 
 ## ¿Qué encontraré aquí?
 De manera organizada, todas las guías útiles que podamos recopilar en esta documentación separada por categorías como lo son:
+- ### [Básico](/guias/basico/)
+  Toda información útil para antes de comenzar los modulos.
 - ### [Module 00](/guias/cpp_c4/module00/)
   Toda información útil para la práctica o conocimiento con respecto module 00
-- ### [Module 01](/guias/cpp_c4/module01/)
+<!-- - ### [Module 01](/guias/cpp_c4/module01/)
   Toda información útil para la práctica o conocimiento con respecto module 01
 - ### [Module 02](/guias/cpp_c4/module02/)
   Toda información útil para la práctica o conocimiento con respecto module 02
 - ### [Module 03](/guias/cpp_c4/module03/)
   Toda información útil para la práctica o conocimiento con respecto module 03
 - ### [Module 04](/guias/cpp_c4/module04/)
-  Toda información útil para la práctica o conocimiento con respecto module 04
+  Toda información útil para la práctica o conocimiento con respecto module 04 -->
 
 - ### [Errores](/guias/errores/)
   La ayuda para dar solución a errores conocidos o poco conocidos que se hayan encontrado y resuelto.
 
-::: info Nota
-Estas categorías y su contenido puede verse sujeto a cambios.
+::: danger Estas categorías y su contenido puede verse sujeto a cambios.
 :::
 
 

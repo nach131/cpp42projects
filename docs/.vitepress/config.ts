@@ -208,6 +208,17 @@ function siderbar() {
                       link: "/guias/cpp_c4/module00/class/destructor",
 
                     },
+                    {
+                      text: "Sobrecarga",
+                      link: "/guias/cpp_c4/module00/class/sobrecarga",
+                      items: [
+                        {
+                          text: "Tipos",
+                          link: "/guias/cpp_c4/module00/class/tipos",
+                        }
+                      ]
+
+                    },
                   ]
                 },
                 {

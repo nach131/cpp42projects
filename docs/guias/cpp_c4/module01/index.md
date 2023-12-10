@@ -22,5 +22,3 @@ import { categoria1 } from './categorias.ts';
 Este Modulo y su contenido puede verse sujeto a cambios.
 :::
 
-
-w

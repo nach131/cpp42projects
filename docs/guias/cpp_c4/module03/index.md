@@ -15,8 +15,6 @@ import { categoria1 } from './categorias.ts';
 
 # Module 03
 
-## Ex00
-
-## Ex01
-
-## Ex02
+::: danger En proceso...
+Este Modulo y su contenido puede verse sujeto a cambios.
+:::
