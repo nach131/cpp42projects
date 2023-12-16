@@ -152,7 +152,7 @@ function siderbar() {
               link: "/guias/basico/variables"
             },
             {
-              text: "Referencias",
+              text: "Referencias y punteros",
               link: "/guias/basico/referencias"
             },
             {
@@ -225,6 +225,10 @@ function siderbar() {
                   text: "Exe01",
                   link: "/guias/cpp_c4/module00/exe01/",
                 },
+                {
+                  text: "Exe02",
+                  link: "/guias/cpp_c4/module00/exe02/",
+                },
                 // {
                 //   text: "Exe00: Megaphone",
                 //   link: "/guias/cpp_c4/module00/exe00",
@@ -239,25 +243,25 @@ function siderbar() {
                 // }
               ]
             },
-            // {
-            //   text: "Module 01",
-            //   link: "/guias/cpp_c4/module01/",
-            //   collapsed: true,
-            //   items: [
-            //     {
-            //       text: "Exe:",
-            //       link: "/guias/cpp_c4/module01/exe00",
-            //     },
-            //     {
-            //       text: "Exe:",
-            //       link: "/guias/cpp_c4/module00/exe01",
-            //     },
-            //     {
-            //       text: "Exe:",
-            //       link: "/guias/cpp_c4/module00/exe01",
-            //     }
-            //   ]
-            // },
+            {
+              text: "Module 01",
+              link: "/guias/cpp_c4/module01/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Heap o Stack",
+                  link: "/guias/cpp_c4/module01/heap_stack",
+                },
+                {
+                  text: "New y Destroy",
+                  link: "/guias/cpp_c4/module01/new&destroy",
+                },
+                {
+                  text: "Punteros y referencias",
+                  link: "/guias/cpp_c4/module01/punteros",
+                }
+              ]
+            },
             // {
             //   text: "Module 02",
             //   link: "/guias/cpp_c4/module02/",

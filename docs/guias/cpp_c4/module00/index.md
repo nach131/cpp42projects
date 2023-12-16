@@ -10,6 +10,7 @@ head:
 <script setup lang="ts">
 import Woaos from '@theme/components/categoria.vue';
 import { module00 } from './module00.ts';
+import { module00_1 } from './module00.ts';
 </script>
 
 # Module 00
@@ -22,3 +23,4 @@ Este Modulo y su contenido puede verse sujeto a cambios.
 :::
 
 <Woaos :links="module00" />
+<Woaos :links="module00_1" />

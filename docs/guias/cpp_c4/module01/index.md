@@ -1,19 +1,9 @@
----
-head:
-  - - meta
-    - name: og:description
-      content: Toda información útil para la práctica o conocimiento con respecto la instalación de sistemas u otros.
-  - - meta
-    - name: og:title
-      content: Guías | Instalación
----
 
 <script setup lang="ts">
 import Woaos from '@theme/components/categoria.vue';
-import { categoria0 } from './categorias.ts';
-import { categoria1 } from './categorias.ts';
-</script>
+import { module01 } from './module01.ts';
 
+</script>
 # Module 01
 
 **Reserva de memoria, punteros a miembros, referencias, switch**
@@ -22,3 +12,4 @@ import { categoria1 } from './categorias.ts';
 Este Modulo y su contenido puede verse sujeto a cambios.
 :::
 
+<Woaos :links="module01" />

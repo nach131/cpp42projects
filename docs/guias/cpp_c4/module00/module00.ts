@@ -19,3 +19,17 @@ export const module00 = [
   },
 
 ]
+export const module00_1 = [
+  {
+    // icon: "/cpp42projects/icons/number/0.svg",
+    title: "Ex01",
+    // description: "Namespaces",
+    link: "/cpp42projects/guias/cpp_c4/module00/exe01/"
+  },
+  {
+    // icon: "/cpp42projects/icons/number/0.svg",
+    title: "Ex02",
+    // description: "Namespaces",
+    link: "/cpp42projects/guias/cpp_c4/module00/exe02/"
+  }
+]
