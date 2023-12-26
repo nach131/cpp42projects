@@ -29,3 +29,4 @@
 ## Operaciones de búsqueda y manipulación:
 
 Métodos como `find()`, `replace()`, `substr()`, etc., permiten realizar operaciones avanzadas en las cadenas.
+
