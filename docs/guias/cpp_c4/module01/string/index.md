@@ -14,7 +14,7 @@
 
 `std::string` proporciona una amplia variedad de funciones y métodos para manipular cadenas. Puedes realizar operaciones como concatenación, extracción de subcadenas, búsqueda, reemplazo, etc.
 
-## [Iteradores](/guias/cpp_c4/module01/string/iteradores)
+## [Iteradores](https://nach131.github.io/cpp42projects/guias/cpp_c4/module01/string/iteradores)
 
 `std::string` también admite el uso de iteradores, que son objetos que permiten recorrer la cadena de manera eficiente.
 
