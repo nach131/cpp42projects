@@ -167,6 +167,10 @@ function siderbar() {
               text: "Array class",
               link: "/guias/basico/array_class"
             },
+            {
+              text: "Ternarios",
+              link: "/guias/basico/ternarios"
+            },
           ]
         },
         {
@@ -259,7 +263,36 @@ function siderbar() {
                 {
                   text: "Punteros y referencias",
                   link: "/guias/cpp_c4/module01/punteros",
+                },
+                {
+                  text: "Class String",
+                  link: "/guias/cpp_c4/module01/string/",
+                  items: [
+                    {
+                      text: "Iteradores",
+                      link: "/guias/cpp_c4/module01/string/iteradores",
+                    }
+                  ]
+                },
+                {
+                  text: "ifstream",
+                  link: "/guias/cpp_c4/module01/ifstream",
+                },
+                {
+                  text: "ofstream",
+                  link: "/guias/cpp_c4/module01/ofstream",
                 }
+              ]
+            },
+            {
+              text: "Module 02",
+              link: "/guias/cpp_c4/module02/",
+              collapsed: true,
+              items: [
+                {
+                  text: "inline",
+                  link: "/guias/cpp_c4/module02/inline",
+                },
               ]
             },
             // {
