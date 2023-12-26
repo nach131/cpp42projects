@@ -270,7 +270,7 @@ function siderbar() {
                   items: [
                     {
                       text: "Iteradores",
-                      link: "/guias/cpp_c4/module01/string/iteradores",
+                      link: "/guias/cpp_c4/module01/string/iterador",
                     }
                   ]
                 },
