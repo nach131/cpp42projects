@@ -7,6 +7,9 @@ export default {
   cleanUrls: true,
   base: '/cpp42projects/',
   lang: "es-ES",
+  markdown: {
+    math: true
+  },
   themeConfig: {
     siteTitle: "CPP 42 Projects",
     darkModeSwitchLabel: "Apariencia",
@@ -26,9 +29,7 @@ export default {
       pattern: "https://github.com/nach131/cpp42projects/edit/main/docs/:path",
       text: "Editar esta página en GitHub",
     },
-    markdown: {
-      math: true
-    },
+
     search: {
       provider: "local",
       options: {

@@ -21,6 +21,8 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 $\sqrt{3x-1}+(1+x)^2$
 
+$x^4$
+
 ::: info
 esto es `info`
 :::
