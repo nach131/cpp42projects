@@ -5,8 +5,7 @@ export default {
   appearance: "dark",
   description: "Guías independientes.",
   cleanUrls: true,
-  base: 'https://nach131.github.io/cpp42projects/',
-  // base: '/cpp42projects/',
+  base: '/cpp42projects/',
   lang: "es-ES",
   themeConfig: {
     siteTitle: "CPP 42 Projects",
