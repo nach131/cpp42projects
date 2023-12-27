@@ -5,7 +5,8 @@ export default {
   appearance: "dark",
   description: "Guías independientes.",
   cleanUrls: true,
-  base: '/cpp42projects/',
+  base: 'https://nach131.github.io/cpp42projects/',
+  // base: '/cpp42projects/',
   lang: "es-ES",
   themeConfig: {
     siteTitle: "CPP 42 Projects",
@@ -25,6 +26,9 @@ export default {
     editLink: {
       pattern: "https://github.com/nach131/cpp42projects/edit/main/docs/:path",
       text: "Editar esta página en GitHub",
+    },
+    markdown: {
+      math: true
     },
     search: {
       provider: "local",
@@ -171,6 +175,10 @@ function siderbar() {
               text: "Ternarios",
               link: "/guias/basico/ternarios"
             },
+            {
+              text: "Argumentos default",
+              link: "/guias/basico/default"
+            },
           ]
         },
         {
@@ -293,6 +301,10 @@ function siderbar() {
                   text: "inline",
                   link: "/guias/cpp_c4/module02/inline",
                 },
+                {
+                  text: "Números de punto fijo",
+                  link: "/guias/cpp_c4/module02/fixed",
+                },
               ]
             },
             // {
@@ -307,11 +319,11 @@ function siderbar() {
           link: "/guias/errores/",
           collapsed: true,
         },
-        // {
-        //   text: "Ejemplos",
-        //   link: "/guias/ejemplo/",
-        //   collapsed: true,
-        // }
+        {
+          text: "Ejemplos",
+          link: "/guias/ejemplo/",
+          collapsed: true,
+        }
       ],
     },
     {

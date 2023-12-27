@@ -15,6 +15,12 @@ import { categoria1 } from './categorias.ts';
 
 # Ejemplos
 
+
+When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
+$\sqrt{3x-1}+(1+x)^2$
+
 ::: info
 esto es `info`
 :::
@@ -38,11 +44,11 @@ console.log('Hello, VitePress!')
 ```
 :::
 
-<!-- ICONOS -->
+## ICONOS
 
 :tada: :100:
 
-
+https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.mjs
 
 
 ```ts {1}
@@ -84,10 +90,61 @@ export default {
   }
 }
 ```
-# Badge
+## Badge
 
-### Title <Badge type="info" text="info" />
-### Title <Badge type="tip" text="tip" />
-### Title <Badge type="warning" text="warning" />
-### Title <Badge type="danger" text="danger" />
+### info <Badge type="info" text="info" />
+### tip <Badge type="tip" text="tip" />
+### warning <Badge type="warning" text="warning" />
+### danger <Badge type="danger" text="danger" />
+
+## Colored Diffs in Code Blocks 
+```js
+export default {
+  data () {
+    return {
+      msg: 'Removed' // [!code --]
+      msg: 'Added' // [!code ++]
+    }
+  }
+}
+```
+
+## Errors and Warnings in Code Blocks 
+```js
+export default {
+  data () {
+    return {
+      msg: 'Error', // [!code error]
+      msg: 'Warning' // [!code warning]
+    }
+  }
+}
+```
+
+## code-group
+
+::: code-group
+
+```js [config.js]
+/**
+ * @type {import('vitepress').UserConfig}
+ */
+const config = {
+  // ...
+}
+
+export default config
+```
+
+```ts [config.ts]
+import type { UserConfig } from 'vitepress'
+
+const config: UserConfig = {
+  // ...
+}
+
+export default config
+```
+
+:::
 
