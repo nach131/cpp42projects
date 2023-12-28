@@ -152,3 +152,88 @@ $1 * 2^{-3} = 0.125$
 $1 * 2^{-4} = 0.0625$
 
 $8 + 2 + 0.5 + 0.125 + 0.0625 = 2.6875$
+
+# Numeros negativos
+
+Al representar números en binario, utilizamos algo llamado `complemento a 2` para representar números negativos. La peculiaridad del complemento a 2 es que las operaciones aritméticas como suma, resta y desplazamiento son las mismas para números positivos y negativos.
+
+Cuando hablamos de números en punto fijo, nos referimos a números que tienen una parte entera y una parte fraccionaria, y estos números en punto fijo son esencialmente una versión desplazada de números enteros. Al establecer el punto binario en una posición diferente de cero, cambiamos cómo interpretamos el valor del número.
+
+La conexión entre el complemento a 2 y los números en punto fijo es que, dado que las operaciones como el desplazamiento funcionan de manera similar tanto para números positivos como para números negativos en complemento a 2, podemos usar el complemento a 2 para representar números negativos en el formato de punto fijo. Esto se logra mediante el uso del complemento a 2 para representar la parte entera del número negativo y aplicar la misma lógica al desplazar bits.
+
+
+La siguiente tabla representa los valores de un número binario de 4 bits en la columna izquierda, su equivalente en decimal en la columna del medio, y la mitad de ese valor en la columna derecha.
+
+<table >
+<tr><td>
+
+|$b^3$|$b^2$|$b^1$|$b^0$|
+|-|-|-|-|
+|1|1|1|`1`|
+|1|1|1|`0`|
+|1|1|0|`1`|
+|1|1|0|`0`|
+|1|0|1|`1`|
+|1|0|1|`0`|
+|1|0|0|`1`|
+|1|0|0|`0`|
+|0|1|1|`1`|
+|0|1|1|`0`|
+|0|1|0|`1`|
+|0|1|0|`0`|
+|0|0|1|`1`|
+|0|0|1|`0`|
+|0|0|0|`1`|
+|0|0|0|`0`|
+
+</td><td>
+
+|$N$|
+|-|
+|-1|
+|-2|
+|-3|
+|-4|
+|-5|
+|-6|
+|-7|
+|-8|
+|7|
+|6|
+|5|
+|4|
+|3|
+|2|
+|1|
+|0|
+
+</td><td>
+
+|$n/2$|
+|--|
+|-0.5|
+|-1|
+|-1.5|
+|-2|
+|-2.5|
+|-3|
+|-3.5|
+|-4|
+|3.5|
+|3|
+|2.5|
+|2|
+|1.5|
+|1|
+|0.5|
+|0|
+
+</td></tr> </table>
+
+
+Todas las operaciones aritméticas que una computadora puede realizar en enteros también se pueden aplicar a números en punto fijo.
+
+La desventaja de los números en punto fijo radica, por supuesto, en la pérdida de rango y precisión en comparación con las representaciones de números de punto flotante. 
+
+Por ejemplo, en una representación `fixed<8,1>`, nuestra parte fraccionaria solo es precisa hasta un quantum de `0.5`. 
+Si queremos representar `0.75` seria `fixed<8,2>`, pero luego perdemos rango en la parte entera.

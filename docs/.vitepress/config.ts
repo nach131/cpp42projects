@@ -314,16 +314,16 @@ function siderbar() {
             // },
           ]
         },
-        {
-          text: "Errores",
-          link: "/guias/errores/",
-          collapsed: true,
-        },
-        {
-          text: "Ejemplos",
-          link: "/guias/ejemplo/",
-          collapsed: true,
-        }
+        // {
+        //   text: "Errores",
+        //   link: "/guias/errores/",
+        //   collapsed: true,
+        // },
+        // {
+        //   text: "Ejemplos",
+        //   link: "/guias/ejemplo/",
+        //   collapsed: true,
+        // }
       ],
     },
     {

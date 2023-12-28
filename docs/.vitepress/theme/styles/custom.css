@@ -516,3 +516,7 @@
 }
 
 
+.tomate {
+  border-collapse: collapse !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important; /* Establece la transparencia ajustando el último valor (0.1 en este caso) */
+}
