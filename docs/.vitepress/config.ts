@@ -298,8 +298,26 @@ function siderbar() {
                   link: "/guias/cpp_c4/module02/canonica",
                 },
                 {
-                  text: "operaciones de comparación",
-                  link: "/guias/cpp_c4/module02/operadores/comparacion",
+                  text: "Operaciones",
+                  items: [
+                    {
+                      text: "Comparación",
+                      link: "/guias/cpp_c4/module02/operadores/comparacion",
+                    },
+                    {
+                      text: "Asignción",
+                      link: "/guias/cpp_c4/module02/operadores/asignacion",
+                    },
+                    {
+                      text: "Aritméticos",
+                      link: "/guias/cpp_c4/module02/operadores/aritmeticos",
+                    },
+                    {
+                      text: "Incremento/Decremento",
+                      link: "/guias/cpp_c4/module02/operadores/incremento_decremento",
+                    },
+
+                  ]
                 },
               ]
             },
