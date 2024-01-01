@@ -1,6 +1,6 @@
 # Exe01
 
-## #pragma once
+## pragma once
 
 
 `#pragma once` es una directiva de preprocesador que se utiliza para garantizar que un archivo de encabezado `header` se incluya solo una vez durante el proceso de compilación. Esto ayuda a prevenir problemas de inclusión múltiple que pueden ocurrir cuando el mismo archivo de encabezado se incluye varias veces en un programa.

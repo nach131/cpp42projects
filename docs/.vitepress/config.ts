@@ -241,18 +241,6 @@ function siderbar() {
                   text: "Exe02",
                   link: "/guias/cpp_c4/module00/exe02/",
                 },
-                // {
-                //   text: "Exe00: Megaphone",
-                //   link: "/guias/cpp_c4/module00/exe00",
-                // },
-                // {
-                //   text: "Exe01: My Awesome PhoneBook",
-                //   link: "/guias/cpp_c4/module00/exe01",
-                // },
-                // {
-                //   text: "Exe02: The Job Of Your Dreams",
-                //   link: "/guias/cpp_c4/module00/exe01",
-                // }
               ]
             },
             {
@@ -305,6 +293,14 @@ function siderbar() {
                   text: "Números de punto fijo",
                   link: "/guias/cpp_c4/module02/fixed",
                 },
+                {
+                  text: "Clase canónica",
+                  link: "/guias/cpp_c4/module02/canonica",
+                },
+                {
+                  text: "operaciones de comparación",
+                  link: "/guias/cpp_c4/module02/operadores/comparacion",
+                },
               ]
             },
             // {
@@ -319,11 +315,11 @@ function siderbar() {
         //   link: "/guias/errores/",
         //   collapsed: true,
         // },
-        // {
-        //   text: "Ejemplos",
-        //   link: "/guias/ejemplo/",
-        //   collapsed: true,
-        // }
+        {
+          text: "Ejemplos",
+          link: "/guias/ejemplo/",
+          collapsed: true,
+        }
       ],
     },
     {
