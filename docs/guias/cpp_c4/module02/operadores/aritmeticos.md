@@ -13,6 +13,8 @@ public:
 	MyNum();
 	MyNum(const MyNum &);
 	~MyNum();
+
+	// Operadores Asignación
 	MyNum &operator=(const MyNum &);
 	MyNum &operator+=(const MyNum &);
 	MyNum &operator-=(const MyNum &);
@@ -25,7 +27,7 @@ public:
 	MyNum operator-(const MyNum &) const;// [!code focus]
 	MyNum operator*(const MyNum &) const;// [!code focus]
 	MyNum operator/(const MyNum &) const;// [!code focus]
-	MyNum operator%(const MyNum &);// [!code focus]
+	MyNum operator%(const MyNum &) const;// [!code focus]
 
 	int getNum() const;
 	void setNum(const int);
@@ -84,9 +86,9 @@ MyNum &MyNum::operator%=(const MyNum &other)
 
 MyNum MyNum::operator+(const MyNum &other) const// [!code focus]
 {
-	MyNum result = *this;
-	result += other;
-	return result;
+	MyNum result = *this;// [!code focus]
+	result += other;// [!code focus]
+	return result;// [!code focus]
 }
 
 MyNum MyNum::operator-(const MyNum &other) const// [!code focus]

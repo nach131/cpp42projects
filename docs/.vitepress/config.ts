@@ -316,8 +316,11 @@ function siderbar() {
                       text: "Incremento/Decremento",
                       link: "/guias/cpp_c4/module02/operadores/incremento_decremento",
                     },
-
                   ]
+                },
+                {
+                  text: "BSP",
+                  link: "/guias/cpp_c4/module02/bsp",
                 },
               ]
             },

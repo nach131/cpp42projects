@@ -34,6 +34,7 @@ public:
 	MyNum &operator-=(const MyNum &);// [!code focus]
 	MyNum &operator*=(const MyNum &);// [!code focus]
 	MyNum &operator/=(const MyNum &);// [!code focus]
+	MyNum &operator%=(const MyNum &);// [!code focus]
 
 	int getNum() const;
 	void setNum(const int);
@@ -53,15 +54,15 @@ void MyNum::setNum(const int num) { _num = num; }
 
 MyNum &MyNum::operator=(const MyNum &other)// [!code focus]
 {
-	if (this != &other)
-		_num = other._num;
-	return *this;
+	if (this != &other)// [!code focus]
+		_num = other._num;// [!code focus]
+	return *this;// [!code focus]
 }
 
 MyNum &MyNum::operator+=(const MyNum &other)// [!code focus]
 {
-	_num += other._num;
-	return *this;
+	_num += other._num;// [!code focus]
+	return *this;// [!code focus]
 }
 
 MyNum &MyNum::operator-=(const MyNum &other)// [!code focus]
@@ -82,6 +83,14 @@ MyNum &MyNum::operator/=(const MyNum &other)// [!code focus]
 		_num /= other._num;
 	return *this;
 }
+
+MyNum &MyNum::operator%=(const MyNum &other)// [!code focus]
+{
+    if (other._num != 0)
+        _num %= other._num;
+    return *this;
+}
+
 ```
 
 <Badge type="tip" text="main.cpp" />
