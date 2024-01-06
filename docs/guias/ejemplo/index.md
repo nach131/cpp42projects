@@ -2,10 +2,7 @@
 head:
   - - meta
     - name: og:description
-      content: Toda información útil para la práctica o conocimiento con respecto la instalación de sistemas u otros.
-  - - meta
-    - name: og:title
-      content: Guías | Instalación
+      content: Toda información útil para la práctica o conocimiento con respecto la instalación de sistemas u 
 ---
 <script setup lang="ts">
 import Woaos from '@theme/components/categoria.vue';
@@ -24,7 +21,7 @@ $\sqrt{3x-1}+(1+x)^2$
 
 $x^4$
 
-## resalte
+## Custom Containers 
 
 ::: info
 esto es `info`
@@ -48,6 +45,7 @@ When used in Markdown, `<style scoped>` requires adding special attributes to ev
 console.log('Hello, VitePress!')
 ```
 :::
+
 
 ## ICONOS
 
@@ -150,14 +148,32 @@ const config: UserConfig = {
 
 export default config
 ```
-
 :::
+
+## Table
 
 |Table 1|Table 2|
 |--|--|
 |<table> <tr><th>Table 1 Heading 1</th><th>Table 1 Heading 2</th></tr><tr><td>Row 1 Column 1</td><td>Row 1 Column 2</td></tr> </table>| <table> <tr><th>Table 2 Heading 1</th><th>Table 2 Heading 2</th></tr><tr><td>Row 1 Column 1</td><td>Row 1 Column 2</td></tr> </table>|
 
+| Tables        |      Are      |  Cool |
+| ------------- | :-----------: | ----: |
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      |   centered    |   $12 |
+| zebra stripes |   are neat    |    $1 |
+
 ## Numeracion
 
 1. **Stack (Pila):**
 2. **Stack (Pila):**
+
+
+## Directives
+
+```html
+<span v-for="i in 3">{{ i }}</span>
+```
+
+<span v-for="i in 3">{{ i }}</span>
+
+

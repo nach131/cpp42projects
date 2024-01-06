@@ -324,11 +324,39 @@ function siderbar() {
                 },
               ]
             },
-            // {
-            //   text: "Module 02",
-            //   link: "/guias/cpp_c4/module02/",
-            //   collapsed: true,
-            // },
+            {
+              text: "Module 03",
+              link: "/guias/cpp_c4/module03/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Herencias",
+                  link: "/guias/cpp_c4/module03/herencias/",
+                  items: [
+                    {
+                      text: "Publica",
+                      link: "/guias/cpp_c4/module03/herencias/publica",
+                    },
+                    {
+                      text: "Protegida",
+                      link: "/guias/cpp_c4/module03/herencias/protegida",
+                    },
+                    {
+                      text: "Privada",
+                      link: "/guias/cpp_c4/module03/herencias/privado",
+                    },
+                    {
+                      text: "Virtual",
+                      link: "/guias/cpp_c4/module03/herencias/virtual",
+                    },
+                  ]
+                },
+                {
+                  text: "Problema del diamante",
+                  link: "/guias/cpp_c4/module03/diamante",
+                },
+              ]
+            },
           ]
         },
         // {
@@ -340,6 +368,12 @@ function siderbar() {
           text: "Ejemplos",
           link: "/guias/ejemplo/",
           collapsed: true,
+          items: [
+            // {
+            //   text: "Style",
+            //   link: "/guias/ejemplo/style",
+            // }
+          ]
         }
       ],
     },
