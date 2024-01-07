@@ -23,7 +23,7 @@ import Woaos from '@theme/components/categoria.vue';
 
 ## Protected
 + Los miembros declarados como `protected` son accesibles desde dentro de la clase y desde las clases derivadas `heredadas`.
-+ No son accesibles directamente desde fuera de la clase, pero pueden ser utilizados por clases derivadas.
++ No son accesibles directamente desde fuera de la clase, pero pueden ser utilizados por clases derivadas.  [More...](../../module03/herencias/index.md)
 
 ## Private
 + Los miembros declarados como private son accesibles solo desde dentro de la propia clase.

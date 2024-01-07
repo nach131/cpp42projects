@@ -1,7 +1,6 @@
-# Sobrecarga de los operadores de incremento
+## Sobrecarga de los operadores de una clase
 
-## Incremento y decremento
-
+### Incremento y decremento
  `operator++` y decremento `operator--` en una clase te permite definir cómo se comportan estos operadores cuando se aplican a objetos de esa clase. Estos operadores pueden ser pre o postfijos y se deben implementar como métodos de la clase.
 
 ```cpp

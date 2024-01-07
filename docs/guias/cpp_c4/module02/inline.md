@@ -1,4 +1,4 @@
-# inline
+# Inline
 
 Se utiliza normal mente para las clases.
 

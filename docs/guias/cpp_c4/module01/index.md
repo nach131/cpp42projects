@@ -8,6 +8,4 @@ import { module01 } from './module01.ts';
 
 **Reserva de memoria, punteros a miembros, referencias, switch**
 
-
-
-<Woaos :links="module01" />
+<Woaos :links="module01"/>

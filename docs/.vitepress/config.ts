@@ -221,8 +221,8 @@ function siderbar() {
 
                     },
                     {
-                      text: "Sobrecarga",
-                      link: "/guias/cpp_c4/module00/class/sobrecarga",
+                      text: "Operadores",
+                      link: "/guias/cpp_c4/module00/class/operadores",
                       items: [
                         {
                           text: "Tipos",
@@ -232,6 +232,10 @@ function siderbar() {
 
                     },
                   ]
+                },
+                {
+                  text: "Sobrecarga",
+                  link: "/guias/cpp_c4/module00/sobrecarga",
                 },
                 {
                   text: "Exe01",
@@ -253,8 +257,8 @@ function siderbar() {
                   link: "/guias/cpp_c4/module01/heap_stack",
                 },
                 {
-                  text: "New y Destroy",
-                  link: "/guias/cpp_c4/module01/new&destroy",
+                  text: "New y Delete",
+                  link: "/guias/cpp_c4/module01/new&delete",
                 },
                 {
                   text: "Punteros y referencias",
@@ -286,14 +290,6 @@ function siderbar() {
               collapsed: true,
               items: [
                 {
-                  text: "inline",
-                  link: "/guias/cpp_c4/module02/inline",
-                },
-                {
-                  text: "Números de punto fijo",
-                  link: "/guias/cpp_c4/module02/fixed",
-                },
-                {
                   text: "Clase canónica",
                   link: "/guias/cpp_c4/module02/canonica",
                 },
@@ -317,6 +313,14 @@ function siderbar() {
                       link: "/guias/cpp_c4/module02/operadores/incremento_decremento",
                     },
                   ]
+                },
+                {
+                  text: "Números de punto fijo",
+                  link: "/guias/cpp_c4/module02/fixed",
+                },
+                {
+                  text: "Inline",
+                  link: "/guias/cpp_c4/module02/inline",
                 },
                 {
                   text: "BSP",

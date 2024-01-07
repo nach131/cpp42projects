@@ -1,6 +1,6 @@
 # string class
 
-`std::string `es una clase de la Biblioteca Estándar de C++ que representa una cadena de caracteres. Esta clase proporciona una interfaz conveniente para manipular cadenas de caracteres de manera dinámica, lo que significa que puedes cambiar su longitud durante la ejecución del programa.
+`std::string` es una clase de la Biblioteca Estándar de C++ que representa una cadena de caracteres. Esta clase proporciona una interfaz conveniente para manipular cadenas de caracteres de manera dinámica, lo que significa que puedes cambiar su longitud durante la ejecución del programa.
 
 ## Implementación del string
 
