@@ -357,6 +357,25 @@ function siderbar() {
                 },
               ]
             },
+            {
+              text: "Module 04",
+              link: "/guias/cpp_c4/module04/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Polimorfismo derivado",
+                  link: "/guias/cpp_c4/module04/polimorfismo",
+                },
+                {
+                  text: "Clases Abstractas",
+                  link: "/guias/cpp_c4/module04/abstractas",
+                },
+                {
+                  text: "Interfaces",
+                  link: "/guias/cpp_c4/module04/interfaces",
+                },
+              ]
+            },
           ]
         },
         // {
