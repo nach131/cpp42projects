@@ -188,7 +188,7 @@ function siderbar() {
           items: [
             {
               text: "Module 00",
-              link: "/guias/cpp_c4/module00/",
+              // link: "/guias/cpp_c4/module00/",
               collapsed: true,
               items: [
                 {
@@ -249,7 +249,7 @@ function siderbar() {
             },
             {
               text: "Module 01",
-              link: "/guias/cpp_c4/module01/",
+              // link: "/guias/cpp_c4/module01/",
               collapsed: true,
               items: [
                 {
@@ -286,7 +286,7 @@ function siderbar() {
             },
             {
               text: "Module 02",
-              link: "/guias/cpp_c4/module02/",
+              // link: "/guias/cpp_c4/module02/",
               collapsed: true,
               items: [
                 {
@@ -330,7 +330,7 @@ function siderbar() {
             },
             {
               text: "Module 03",
-              link: "/guias/cpp_c4/module03/",
+              // link: "/guias/cpp_c4/module03/",
               collapsed: true,
               items: [
                 {
@@ -363,7 +363,7 @@ function siderbar() {
             },
             {
               text: "Module 04",
-              link: "/guias/cpp_c4/module04/",
+              // link: "/guias/cpp_c4/module04/",
               collapsed: true,
               items: [
                 {
@@ -371,7 +371,7 @@ function siderbar() {
                   link: "/guias/cpp_c4/module04/polimorfismo",
                 },
                 {
-                  text: "Copia obj",
+                  text: "Copia objetos",
                   link: "/guias/cpp_c4/module04/copia",
                 },
                 {
@@ -391,17 +391,17 @@ function siderbar() {
         //   link: "/guias/errores/",
         //   collapsed: true,
         // },
-        {
-          text: "Ejemplos",
-          link: "/guias/ejemplo/",
-          collapsed: true,
-          items: [
-            // {
-            //   text: "Style",
-            //   link: "/guias/ejemplo/style",
-            // }
-          ]
-        }
+        // {
+        //   text: "Ejemplos",
+        //   link: "/guias/ejemplo/",
+        //   collapsed: true,
+        //   items: [
+        //     // {
+        //     //   text: "Style",
+        //     //   link: "/guias/ejemplo/style",
+        //     // }
+        //   ]
+        // }
       ],
     },
     {
