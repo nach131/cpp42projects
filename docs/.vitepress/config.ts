@@ -371,6 +371,10 @@ function siderbar() {
                   link: "/guias/cpp_c4/module04/polimorfismo",
                 },
                 {
+                  text: "Copia obj",
+                  link: "/guias/cpp_c4/module04/copia",
+                },
+                {
                   text: "Clases Abstractas",
                   link: "/guias/cpp_c4/module04/abstractas",
                 },
