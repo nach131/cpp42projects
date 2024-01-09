@@ -179,6 +179,10 @@ function siderbar() {
               text: "Argumentos default",
               link: "/guias/basico/default"
             },
+            {
+              text: "nullptr y NULL",
+              link: "/guias/basico/nullptr"
+            },
           ]
         },
         {
