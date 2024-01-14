@@ -1,7 +1,7 @@
 export default {
   head: metadata(),
   title: "C ++ 42 Projects",
-  titleTemplate: ":title - C++ 42 Projects",
+  titleTemplate: ":title - 42 Barcelona",
   appearance: "dark",
   description: "Guías independientes.",
   cleanUrls: true,
@@ -385,6 +385,10 @@ function siderbar() {
                 {
                   text: "Interfaces",
                   link: "/guias/cpp_c4/module04/interfaces",
+                },
+                {
+                  text: "Dependencias circulares",
+                  link: "/guias/cpp_c4/module04/circulares",
                 },
               ]
             },
