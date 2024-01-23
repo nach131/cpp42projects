@@ -394,6 +394,24 @@ function siderbar() {
             },
           ]
         },
+        {
+          text: "CPP C5",
+          link: "/guias/cpp_c5/",
+          collapsed: true,
+          items: [
+            {
+              text: "Module 05",
+              collapsed: true,
+              items: [
+                {
+                  text: "Exception",
+                  link: "/guias/cpp_c5/module05/Exception",
+                },
+
+              ]
+            },
+          ]
+        },
         // {
         //   text: "Errores",
         //   link: "/guias/errores/",
@@ -404,10 +422,14 @@ function siderbar() {
         //   link: "/guias/ejemplo/",
         //   collapsed: true,
         //   items: [
-        //     // {
-        //     //   text: "Style",
-        //     //   link: "/guias/ejemplo/style",
-        //     // }
+        //     {
+        //       text: "Style",
+        //       link: "/guias/ejemplo/style",
+        //     },
+        //     {
+        //       text: "toma",
+        //       link: "/guias/ejemplo/toma",
+        //     }
         //   ]
         // }
       ],
