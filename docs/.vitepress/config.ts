@@ -405,11 +405,39 @@ function siderbar() {
               items: [
                 {
                   text: "Exception",
-                  link: "/guias/cpp_c5/module05/Exception",
+                  link: "/guias/cpp_c5/module05/exception",
                 },
-
+                {
+                  text: "Operator= const",
+                  link: "/guias/cpp_c5/module05/const",
+                },
+                {
+                  text: "std::map",
+                  link: "/guias/cpp_c5/module05/map",
+                },
               ]
             },
+            {
+              text: "Module 06",
+              collapsed: true,
+              items: [
+                {
+                  text: "-inff, +inff y nanf",
+                  link: "/guias/cpp_c5/module06/infinito",
+                },
+                {
+                  text: "strtod",
+                  link: "/guias/cpp_c5/module06/strtod",
+                },
+                {
+                  text: "Serializar y Deserializar ",
+                  link: "/guias/cpp_c5/module06/serializar",
+                },
+              ]
+            },
+
+
+
           ]
         },
         // {
