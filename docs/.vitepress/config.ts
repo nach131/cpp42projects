@@ -430,8 +430,12 @@ function siderbar() {
                   link: "/guias/cpp_c5/module06/strtod",
                 },
                 {
-                  text: "Serializar y Deserializar ",
+                  text: "Serializar y Deserializar",
                   link: "/guias/cpp_c5/module06/serializar",
+                },
+                {
+                  text: "Dynamic_cast",
+                  link: "/guias/cpp_c5/module06/dynamic_cast",
                 },
               ]
             },
