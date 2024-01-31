@@ -41,3 +41,19 @@ int main()
 1 2 3
 42 1 3
 ```
+
+## Métodos (C++98)
+
+- `begin()` y `end()`: Devuelven iteradores al principio y final de la lista, respectivamente.
+- `empty()`: Devuelve `true` si la lista está vacía, de lo contrario devuelve `false`.
+- `size()`: Devuelve el número de elementos en la lista.
+- `clear()`: Elimina todos los elementos de la lista.
+- `push_front(const T&)` y `push_back(const T&)`: Añade un nuevo elemento al principio o final de la lista, respectivamente. La sintaxis es la siguiente: `list.push_back(element)`.
+- `pop_front()` y `pop_back()`: Elimina el primer o último elemento de la lista, respectivamente.
+- `front()` y `back()`: Devuelven referencias a los primeros o últimos elementos de la lista, respectivamente.
+- `insert(iterator, const T&)`: Añade un nuevo elemento al medio de la lista. La sintaxis es la siguiente: `list.insert(it, element)`.
+- `erase(iterator)`: Elimina el elemento al que apunta el iterador.
+- `remove(const T&)`: Elimina todos los elementos de la lista cuyo valor coincida con la especificada.
+- `unique()`: Elimina todas las ocurrencias consecutivas del mismo elemento en la lista.
+- `reverse()`: Invierte el orden de los elementos en la lista.
+- `sort()`: Ordena los elementos en la lista.

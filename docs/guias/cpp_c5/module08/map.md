@@ -40,7 +40,7 @@ int main()
 (1, 10) (3, 30) (4, 42)
 ```
 
-# map puntero función
+## map puntero función
 
 ```cpp
 #include <iostream>
@@ -95,3 +95,15 @@ int main(int argc, char **argv)
 5. Se imprime el resultado.
 
 En el código proporcionado, las funciones asociadas son `suma`, `resta`, y `mult`. Dependiendo del valor de `str`, se llamará a una de estas funciones con los valores de `a` y `b`. Por ejemplo, si `str` es `'+'`, se llamará a la función `suma(a, b)`.
+
+## Métodos (C++98)
+
+- `begin()` y `end()`: Devuelven iteradores al principio y final del mapa, respectivamente.
+- `empty()`: Devuelve `true` si el mapa está vacío, de lo contrario devuelve `false`.
+- `size()`: Devuelve el número de pares en el mapa.
+- `clear()`: Elimina todos los pares del mapa.
+- `insert(value_type)`: Añade un par al mapa. La sintaxis es la siguiente: `map.insert({key, value})`.
+- `find(const key_type&)`: Devuelve un iterador al primer par cuya clave coincida con la especificada. Si no hay ningún par que cumpla esta condición, devuelve el final del mapa.
+- `erase(iterator)`: Elimina el par al que apunta el iterador.
+- `count(const key_type&)`: Devuelve el número de pares en el mapa cuya clave coincida con la especificada.
+- `lower_bound(const key_type&)`: Devuel un iterador al principio del rincón donde se podría insertar una pare con la especificada clave mayor que cual clave exista en el mapa. Si no hay ningún par con esta clave, devuela el final del mapa.

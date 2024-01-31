@@ -40,3 +40,15 @@ int main()
 1 2 3
 1 3 42
 ```
+
+## Métodos (C++98)
+
+- `begin()` y `end()`: Devuelven iteradores al principio y final del conjunto, respectivamente.
+- `empty()`: Devuelve `true` si el conjunto está vacío, de lo contrario devuelve `false`.
+- `size()`: Devuelve el número de elementos en el conjunto.
+- `clear()`: Elimina todos los elementos del conjunto.
+- `insert(value_type)`: Añade un elemento al conjunto. La sintaxis es la siguiente: `set.insert(element)`.
+- `find(const key_type&)`: Devuelve un iterador al primer elemento que coincida con la especificada. Si no hay ningún elemento que cumpla esta condición, devuelve el final del conjunto.
+- `erase(iterator)`: Elimina el elemento al que apunta el iterador.
+- `count(const key_type&)`: Devuelve el número de elementos en el conjunto cuyo valor coincida con la especificada.
+- `lower_bound(const key_type&)`: Devuelve un iterador al principio del rincón donde se podría insertar un elemento mayor que cualquier elemento existente en el conjunto. Si no hay ningún elemento, devuelve el final del conjunto.

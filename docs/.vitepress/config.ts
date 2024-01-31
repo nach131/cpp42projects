@@ -460,16 +460,20 @@ function siderbar() {
                       link: "/guias/cpp_c5/module08/vector"
                     },
                     {
-                      text: "list",
+                      text: "List",
                       link: "/guias/cpp_c5/module08/list"
                     },
                     {
-                      text: "set",
+                      text: "Set",
                       link: "/guias/cpp_c5/module08/set"
                     },
                     {
-                      text: "map",
+                      text: "Map",
                       link: "/guias/cpp_c5/module08/map"
+                    },
+                    {
+                      text: "Map",
+                      link: "/guias/cpp_c5/module08/iteradores"
                     }
                   ]
                 }
