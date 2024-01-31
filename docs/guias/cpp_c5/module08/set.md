@@ -1,6 +1,6 @@
-# set
+# [set](https://en.cppreference.com/w/cpp/container/set)
 
-[set](https://en.cppreference.com/w/cpp/container/set): Es una colección no ordenada que no permite duplicados de los elementos. No tiene acceso directo a los elementos por índice.
+Es una colección no ordenada que no permite duplicados de los elementos. No tiene acceso directo a los elementos por índice.
 
 ```cpp
 #include <iostream>
@@ -35,6 +35,7 @@ int main()
 }
 
 <Badge type="info" text="output" />
+
 ```bash
 1 2 3
 1 3 42

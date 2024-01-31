@@ -34,6 +34,7 @@ int main() {
 ```
 
 <Badge type="info" text="output" />
+
 ```bash
 1 2 3
 1 4 2

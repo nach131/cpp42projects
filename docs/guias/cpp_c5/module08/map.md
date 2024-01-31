@@ -1,6 +1,6 @@
-# Map
+# [Map](https://en.cppreference.com/w/cpp/container/map)
 
-[map]:(https://en.cppreference.com/w/cpp/container/map) Es una colección de pares clave-valor, donde cada clave es única y las claves y valores están ordenados en función de la clave. No tiene acceso directo a los elementos por índice.
+Es una colección de pares clave-valor, donde cada clave es única y las claves y valores están ordenados en función de la clave. No tiene acceso directo a los elementos por índice.
 
 ```cpp
 int main()
@@ -34,6 +34,7 @@ int main()
 ```
 
 <Badge type="info" text="output" />
+
 ```bash
 (1, 10) (2, 20) (3, 30)
 (1, 10) (3, 30) (4, 42)

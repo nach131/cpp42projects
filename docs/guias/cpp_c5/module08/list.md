@@ -1,6 +1,6 @@
-# list
+# [list](https://en.cppreference.com/w/cpp/container/list)
 
-[list](https://en.cppreference.com/w/cpp/container/list): Es una colección ordenada de elementos del mismo tipo que se pueden agregar, eliminar y modificar en tiempo constante. No tiene acceso directo a los elementos por índice.
+Es una colección ordenada de elementos del mismo tipo que se pueden agregar, eliminar y modificar en tiempo constante. No tiene acceso directo a los elementos por índice.
 
 ```cpp
 int main()
@@ -36,6 +36,7 @@ int main()
 }
 ```
 <Badge type="info" text="output" />
+
 ```bash
 1 2 3
 42 1 3
