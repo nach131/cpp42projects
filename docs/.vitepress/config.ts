@@ -439,7 +439,16 @@ function siderbar() {
                 },
               ]
             },
-
+            {
+              text: "Module 07",
+              collapsed: true,
+              items: [
+                {
+                  text: "Templates",
+                  link: "/guias/cpp_c5/module07/Templates",
+                },
+              ]
+            },
 
 
           ]
