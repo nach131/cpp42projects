@@ -137,10 +137,7 @@ function nav() {
 
 function siderbar() {
   return [
-    {
-      text: "",
-      items: [{ text: "Introducción", link: "/guias/" }]
-    },
+    { text: "", items: [{ text: "Introducción", link: "/guias/" }] },
     {
       // text: "Categorías",
       items: [
@@ -149,42 +146,18 @@ function siderbar() {
           link: "/guias/basico/",
           collapsed: true,
           items: [
-            {
-              text: "Conceptos",
-              link: "/guias/basico/conceptos"
-            },
-            {
-              text: "Variables",
-              link: "/guias/basico/variables"
-            },
+            { text: "Conceptos", link: "/guias/basico/conceptos" },
+            { text: "Variables", link: "/guias/basico/variables" },
             {
               text: "Referencias y punteros",
               link: "/guias/basico/referencias"
             },
-            {
-              text: "Operadores de ámbito",
-              link: "/guias/basico/ambito"
-            },
-            {
-              text: "Overloading",
-              link: "/guias/basico/overloading"
-            },
-            {
-              text: "Array class",
-              link: "/guias/basico/array_class"
-            },
-            {
-              text: "Ternarios",
-              link: "/guias/basico/ternarios"
-            },
-            {
-              text: "Argumentos default",
-              link: "/guias/basico/default"
-            },
-            {
-              text: "nullptr y NULL",
-              link: "/guias/basico/nullptr"
-            }
+            { text: "Operadores de ámbito", link: "/guias/basico/ambito" },
+            { text: "Overloading", link: "/guias/basico/overloading" },
+            { text: "Array class", link: "/guias/basico/array_class" },
+            { text: "Ternarios", link: "/guias/basico/ternarios" },
+            { text: "Argumentos default", link: "/guias/basico/default" },
+            { text: "nullptr y NULL", link: "/guias/basico/nullptr" }
           ]
         },
         {
@@ -193,8 +166,7 @@ function siderbar() {
           collapsed: true,
           items: [
             {
-              text: "Module 00",
-              // link: "/guias/cpp_c4/module00/",
+              text: "Module 00", // link: "/guias/cpp_c4/module00/",
               collapsed: true,
               items: [
                 {
@@ -238,19 +210,12 @@ function siderbar() {
                   text: "Sobrecarga",
                   link: "/guias/cpp_c4/module00/sobrecarga"
                 },
-                {
-                  text: "Exe01",
-                  link: "/guias/cpp_c4/module00/exe01/"
-                },
-                {
-                  text: "Exe02",
-                  link: "/guias/cpp_c4/module00/exe02/"
-                }
+                { text: "Exe01", link: "/guias/cpp_c4/module00/exe01/" },
+                { text: "Exe02", link: "/guias/cpp_c4/module00/exe02/" }
               ]
             },
             {
-              text: "Module 01",
-              // link: "/guias/cpp_c4/module01/",
+              text: "Module 01", // link: "/guias/cpp_c4/module01/",
               collapsed: true,
               items: [
                 {
@@ -275,19 +240,12 @@ function siderbar() {
                     }
                   ]
                 },
-                {
-                  text: "ifstream",
-                  link: "/guias/cpp_c4/module01/ifstream"
-                },
-                {
-                  text: "ofstream",
-                  link: "/guias/cpp_c4/module01/ofstream"
-                }
+                { text: "ifstream", link: "/guias/cpp_c4/module01/ifstream" },
+                { text: "ofstream", link: "/guias/cpp_c4/module01/ofstream" }
               ]
             },
             {
-              text: "Module 02",
-              // link: "/guias/cpp_c4/module02/",
+              text: "Module 02", // link: "/guias/cpp_c4/module02/",
               collapsed: true,
               items: [
                 {
@@ -320,19 +278,12 @@ function siderbar() {
                   text: "Números de punto fijo",
                   link: "/guias/cpp_c4/module02/fixed"
                 },
-                {
-                  text: "Inline",
-                  link: "/guias/cpp_c4/module02/inline"
-                },
-                {
-                  text: "BSP",
-                  link: "/guias/cpp_c4/module02/bsp"
-                }
+                { text: "Inline", link: "/guias/cpp_c4/module02/inline" },
+                { text: "BSP", link: "/guias/cpp_c4/module02/bsp" }
               ]
             },
             {
-              text: "Module 03",
-              // link: "/guias/cpp_c4/module03/",
+              text: "Module 03", // link: "/guias/cpp_c4/module03/",
               collapsed: true,
               items: [
                 {
@@ -364,18 +315,14 @@ function siderbar() {
               ]
             },
             {
-              text: "Module 04",
-              // link: "/guias/cpp_c4/module04/",
+              text: "Module 04", // link: "/guias/cpp_c4/module04/",
               collapsed: true,
               items: [
                 {
                   text: "Polimorfismo derivado",
                   link: "/guias/cpp_c4/module04/polimorfismo"
                 },
-                {
-                  text: "Copia objetos",
-                  link: "/guias/cpp_c4/module04/copia"
-                },
+                { text: "Copia objetos", link: "/guias/cpp_c4/module04/copia" },
                 {
                   text: "Clases Abstractas",
                   link: "/guias/cpp_c4/module04/abstractas"
@@ -401,18 +348,12 @@ function siderbar() {
               text: "Module 05",
               collapsed: true,
               items: [
-                {
-                  text: "Exception",
-                  link: "/guias/cpp_c5/module05/exception"
-                },
+                { text: "Exception", link: "/guias/cpp_c5/module05/exception" },
                 {
                   text: "Operator= const",
                   link: "/guias/cpp_c5/module05/const"
                 },
-                {
-                  text: "std::map",
-                  link: "/guias/cpp_c5/module05/map"
-                }
+                { text: "std::map", link: "/guias/cpp_c5/module05/map" }
               ]
             },
             {
@@ -423,10 +364,7 @@ function siderbar() {
                   text: "-inff, +inff y nanf",
                   link: "/guias/cpp_c5/module06/infinito"
                 },
-                {
-                  text: "strtod",
-                  link: "/guias/cpp_c5/module06/strtod"
-                },
+                { text: "strtod", link: "/guias/cpp_c5/module06/strtod" },
                 {
                   text: "Serializar y Deserializar",
                   link: "/guias/cpp_c5/module06/serializar"
@@ -441,10 +379,7 @@ function siderbar() {
               text: "Module 07",
               collapsed: true,
               items: [
-                {
-                  text: "Templates",
-                  link: "/guias/cpp_c5/module07/Templates"
-                }
+                { text: "Templates", link: "/guias/cpp_c5/module07/Templates" }
               ]
             },
             {
@@ -455,52 +390,31 @@ function siderbar() {
                   text: "Containers",
                   link: "/guias/cpp_c5/module08/containers",
                   items: [
+                    { text: "Vector", link: "/guias/cpp_c5/module08/vector" },
+                    { text: "List", link: "/guias/cpp_c5/module08/list" },
+                    { text: "Set", link: "/guias/cpp_c5/module08/set" },
+                    { text: "Map", link: "/guias/cpp_c5/module08/map" },
                     {
-                      text: "Vector",
-                      link: "/guias/cpp_c5/module08/vector"
-                    },
-                    {
-                      text: "List",
-                      link: "/guias/cpp_c5/module08/list"
-                    },
-                    {
-                      text: "Set",
-                      link: "/guias/cpp_c5/module08/set"
-                    },
-                    {
-                      text: "Map",
-                      link: "/guias/cpp_c5/module08/map"
-                    },
-                    {
-                      text: "Map",
+                      text: "Iteradores",
                       link: "/guias/cpp_c5/module08/iteradores"
                     }
                   ]
-                }
+                },
+                {
+                  text: "Out of range",
+                  link: "/guias/cpp_c5/module08/out_of_range"
+                },
+                {
+                  text: "Logic error",
+                  link: "/guias/cpp_c5/module08/logic_error"
+                },
+                { text: "Min", link: "/guias/cpp_c5/module08/min" },
+                { text: "Max element", link: "/guias/cpp_c5/module08/max" },
+                { text: "Min element", link: "/guias/cpp_c5/module08/min_ele" }
               ]
             }
           ]
         }
-        // {
-        //   text: "Errores",
-        //   link: "/guias/errores/",
-        //   collapsed: true,
-        // },
-        // {
-        //   text: "Ejemplos",
-        //   link: "/guias/ejemplo/",
-        //   collapsed: true,
-        //   items: [
-        //     {
-        //       text: "Style",
-        //       link: "/guias/ejemplo/style",
-        //     },
-        //     {
-        //       text: "toma",
-        //       link: "/guias/ejemplo/toma",
-        //     }
-        //   ]
-        // }
       ]
     },
     {
@@ -511,4 +425,24 @@ function siderbar() {
       ]
     }
   ];
+  // {
+  //   text: "Errores",
+  //   link: "/guias/errores/",
+  //   collapsed: true,
+  // },
+  // {
+  //   text: "Ejemplos",
+  //   link: "/guias/ejemplo/",
+  //   collapsed: true,
+  //   items: [
+  //     {
+  //       text: "Style",
+  //       link: "/guias/ejemplo/style",
+  //     },
+  //     {
+  //       text: "toma",
+  //       link: "/guias/ejemplo/toma",
+  //     }
+  //   ]
+  // }
 }
