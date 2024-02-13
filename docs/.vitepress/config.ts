@@ -166,7 +166,7 @@ function siderbar() {
           collapsed: true,
           items: [
             {
-              text: "Module 00", // link: "/guias/cpp_c4/module00/",
+              text: "Module 00",
               collapsed: true,
               items: [
                 {
@@ -215,7 +215,7 @@ function siderbar() {
               ]
             },
             {
-              text: "Module 01", // link: "/guias/cpp_c4/module01/",
+              text: "Module 01",
               collapsed: true,
               items: [
                 {
@@ -245,7 +245,7 @@ function siderbar() {
               ]
             },
             {
-              text: "Module 02", // link: "/guias/cpp_c4/module02/",
+              text: "Module 02",
               collapsed: true,
               items: [
                 {
@@ -283,7 +283,7 @@ function siderbar() {
               ]
             },
             {
-              text: "Module 03", // link: "/guias/cpp_c4/module03/",
+              text: "Module 03",
               collapsed: true,
               items: [
                 {
@@ -315,7 +315,7 @@ function siderbar() {
               ]
             },
             {
-              text: "Module 04", // link: "/guias/cpp_c4/module04/",
+              text: "Module 04",
               collapsed: true,
               items: [
                 {
@@ -410,7 +410,22 @@ function siderbar() {
                 },
                 { text: "Min", link: "/guias/cpp_c5/module08/min" },
                 { text: "Max element", link: "/guias/cpp_c5/module08/max" },
-                { text: "Min element", link: "/guias/cpp_c5/module08/min_ele" }
+                { text: "Min element", link: "/guias/cpp_c5/module08/min_ele" },
+                { text: "Stack ", link: "/guias/cpp_c5/module08/stack" }
+              ]
+            },
+            {
+              text: "Module 09",
+              collapsed: true,
+              items: [
+                { text: "ifstream", link: "/guias/cpp_c5/module09/ifstream" },
+                {
+                  link: "/guias/cpp_c5/module09/istringstream"
+                },
+                {
+                  text: "RPN",
+                  link: "/guias/cpp_c5/module09/rpn"
+                }
               ]
             }
           ]
@@ -424,7 +439,7 @@ function siderbar() {
         { text: "Creditos", link: "/creditos" }
       ]
     }
-  ];
+  ]; // link: "/guias/cpp_c4/module00/", // link: "/guias/cpp_c4/module01/", // link: "/guias/cpp_c4/module02/", // link: "/guias/cpp_c4/module03/", // link: "/guias/cpp_c4/module04/",
   // {
   //   text: "Errores",
   //   link: "/guias/errores/",

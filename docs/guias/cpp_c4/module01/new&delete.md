@@ -4,7 +4,7 @@ Las palabras clave `new` y `delete` se utilizan para gestionar la memoria dinám
 
 ## New
 + Se utiliza para asignar memoria dinámica en `heap`
-+ Devuelve un puntero al tipo de dato solicitado.active
++ Devuelve un puntero al tipo de dato solicitado
 ```cpp
 int *pInt = new int;
 *pInt = 42;

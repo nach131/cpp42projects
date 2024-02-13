@@ -36,7 +36,7 @@ int main()
 
 ```
 
-En C++98 no se puede inicialiar y asignar valores a un vector esa caracteristica se implanto en c++11.active
+En C++98 no se puede inicialiar y asignar valores a un vector esa caracteristica se implanto en c++11.
 
 Para iniciarlizar un vector con un rango de elementos, se crea una array inicializando con los valores.
 

@@ -110,7 +110,7 @@ Para definir un tipo de punto fijo, necesitamos dos parametros.
 
 + Ancho de la representación del numero `(total bites)`.
 
-+ Posición del punto binario dentro del numero.active
++ Posición del punto binario dentro del numero
 
 `fixed(w,b)`
 
