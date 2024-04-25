@@ -20,7 +20,7 @@ delete pInt;
 
 ```cpp
 int *pArray = new int[42];
-delete[] pArrayl
+delete[] pArray
 ```
 
 
